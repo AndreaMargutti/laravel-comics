@@ -30,15 +30,32 @@ header {
     }
 
 /* main */
+.container {
+    width: 80%;
+}
+
 main {
     background-color: #1c1c1c;
-    .container {
-        width: 80%;
-    }
     .comic-card{
         height: 200px;
     }
     h6 {
         color: white;
+    }
+}
+
+#blue-banner {
+    min-height: 200px;
+    background-color: dodgerblue;
+    ul {
+        list-style-type: none;
+        * {
+            margin-right: 30px;
+            color: white;
+            font-weight: 600;
+        }
+        img {
+            width: 50px;
+        }
     }
 }
