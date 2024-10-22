@@ -28,3 +28,17 @@ header {
             object-position: top;
         }
     }
+
+/* main */
+main {
+    background-color: #1c1c1c;
+    .container {
+        width: 80%;
+    }
+    .comic-card{
+        height: 200px;
+    }
+    h6 {
+        color: white;
+    }
+}
