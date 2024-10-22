@@ -44,5 +44,31 @@
         <div class="col-4">
             <img src="{{ URL::asset('img/dc-logo-bg.png') }}" alt="">
         </div>
+
+        <section id="bottom-ft">
+            <div class="d-flex justify-content-around">
+                <div>
+                    <button class="btn btn-primary">SIGN-UP NOW</button>
+                </div>
+                <ul class="d-flex">
+                    <li><h4>FOLLOW US</h4></li>
+                    <li>
+                        <img src="{{ URL::asset('img/footer-facebook.png') }}" alt="">
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('img/footer-twitter.png') }}" alt="">
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('img/footer-youtube.png') }}" alt="">
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('img/footer-pinterest.png') }}" alt="">
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('img/footer-periscope.png') }}" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </footer>

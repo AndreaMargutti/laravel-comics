@@ -76,3 +76,17 @@ footer {
         object-fit: contain;
     }
 }
+
+#bottom-ft {
+    min-height: 100px;
+    background-color: #303030;
+    ul {
+        list-style-type: none;
+        img {
+            height: 100%;
+        }
+        * {
+            padding: 10px;
+        }
+    }
+}
