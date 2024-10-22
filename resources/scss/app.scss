@@ -1,1 +1,19 @@
 @use "~bootstrap/scss/bootstrap" as *;
+
+h1 {
+    color: red;
+}
+/* Header */
+
+header {
+    min-height: 5rem;
+    nav {
+        ul {
+            list-style-type: none;
+            * {
+                margin-right: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
