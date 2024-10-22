@@ -12,7 +12,7 @@
 
     {{-- Inserici Header --}}
     @include("partials.header")
-
+    @include("partials.jumbo")
     <main>
         @yield("main-content")
     </main>

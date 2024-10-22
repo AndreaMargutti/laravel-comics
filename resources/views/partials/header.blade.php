@@ -1,6 +1,6 @@
 <header>
     <nav class="d-flex align-items-center justify-content-center py-4">
-        <!--<img src="{{-- assets('img/dc-logo.png') --}}" alt="dc-logo">-->
+        <img src="{{URL::asset('img/dc-logo.png')}}" alt="dc-logo" width="100px">
         <ul class="d-flex">
             <li>Characters</li>
             <li class="active">Comics</li>
@@ -16,5 +16,4 @@
         <input type="text" name="search" id="search">
         <i class="fa-solid fa-magnifying-glass ms-3"></i>
     </nav>
-
 </header>
