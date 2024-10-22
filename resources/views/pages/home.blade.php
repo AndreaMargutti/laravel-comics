@@ -19,6 +19,9 @@
                 </div>
             @endforeach
         </div>
+        <div class="col-12 text-center pt-5 pb-3">
+            <button class="btn btn-primary">LOAD MORE</button>
+        </div>
     </section>
 
 @endsection
