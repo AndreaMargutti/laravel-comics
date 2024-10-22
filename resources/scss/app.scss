@@ -59,3 +59,20 @@ main {
         }
     }
 }
+
+/* footer */
+footer {
+    height: 400px;
+    background-image: url('../../public/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    div {
+        height: 100%;
+        padding: 20px
+    }
+    img {
+        height: 100%;
+        object-fit: contain;
+    }
+}
