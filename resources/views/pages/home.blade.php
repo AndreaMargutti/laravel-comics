@@ -12,10 +12,12 @@
     <h1>Current Series</h1>
     <section class="container">
         <div class="row row-cols-6 justify-content-around">
-            @foreach ($comics as $comic )
+            @foreach ($comics as $index => $comic )
                 <div class="col text-center comic-card">
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" style="height: 80%">
-                        <h6> {{ $comic['series'] }} </h6>
+                        <a href="{{route('comics.show', $index)}}">
+                            <h6> {{ $comic['series'] }} </h6>
+                        </a>
                 </div>
             @endforeach
         </div>

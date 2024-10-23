@@ -18,10 +18,14 @@ Route::get('/home', function () {
     return view ('pages.home', compact('comics'));
 });
 
-Route::get('/home/{index}', function ($index) {
+Route::get('/home/{index}', function (string $index) {
     $comics = config("comics");
-    $comic =$comics[$index];
-    dump($comic);
+    if(isset($comics[$index])){
+        $comic = $comics[$index];
+        //dump($comic);
+    } else {
+        abort(404);
+    }
 
     return view ('pages.show', compact("comic"));
-});
+})->name('comics.show');

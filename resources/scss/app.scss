@@ -1,10 +1,9 @@
 @use "~bootstrap/scss/bootstrap" as *;
 
-h1 {
-    color: red;
-}
 /* Header */
-
+h1 {
+    color: white;
+}
 header {
     min-height: 5rem;
     nav {
@@ -84,7 +83,7 @@ footer {
         list-style-type: none;
         img {
             height: 100%;
-        } 
+        }
         * {
             padding: 10px;
         }
